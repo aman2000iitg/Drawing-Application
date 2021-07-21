@@ -28,7 +28,7 @@
 
     <canvas id="canvas" style="border: 2px solid black; display: inline-block; margin: auto;"></canvas>
     <br>
-    <button onclick="erase()" class="button">Erase All</button>
+   
     <div>
         <h1 style="margin-left: 100px;">Pen Width</h1>
         <input type="range" max=30 min=1 value=5 id="thickness" style="display: inline-block; margin-left: 100px; margin-top: 50px;">
@@ -141,10 +141,7 @@
         document.getElementById("canvas").addEventListener("mouseup",endDraw)
         document.getElementById("canvas").addEventListener("mousemove", draw);
 
-        function erase(){
-            window.location.href=
-              "https://gitanjali-krishnan.github.io/Whiteboard/";
-        }
+        
     </script>
 </body>
 </html>
